@@ -24,6 +24,7 @@
 		4C7C45021E5B3796000AA806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CB79C7D1E5C32B60035A765 /* ModalNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalNavigationController.swift; sourceTree = "<group>"; };
 		4CB79C7E1E5C32B60035A765 /* PresentedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentedViewController.swift; sourceTree = "<group>"; };
+		4CB79C811E5C357F0035A765 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 				4C7C44FD1E5B3796000AA806 /* Assets.xcassets */,
 				4C7C44FF1E5B3796000AA806 /* LaunchScreen.storyboard */,
 				4C7C45021E5B3796000AA806 /* Info.plist */,
+				4CB79C811E5C357F0035A765 /* Readme.md */,
 			);
 			path = Landtrait;
 			sourceTree = "<group>";
