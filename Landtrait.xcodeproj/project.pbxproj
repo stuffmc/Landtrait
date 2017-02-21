@@ -13,6 +13,8 @@
 		4C7C44FC1E5B3796000AA806 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C7C44FA1E5B3796000AA806 /* Main.storyboard */; };
 		4C7C44FE1E5B3796000AA806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C7C44FD1E5B3796000AA806 /* Assets.xcassets */; };
 		4C7C45011E5B3796000AA806 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C7C44FF1E5B3796000AA806 /* LaunchScreen.storyboard */; };
+		4CB79C7F1E5C32B60035A765 /* ModalNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB79C7D1E5C32B60035A765 /* ModalNavigationController.swift */; };
+		4CB79C801E5C32B60035A765 /* PresentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB79C7E1E5C32B60035A765 /* PresentedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4C7C44FD1E5B3796000AA806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C7C45001E5B3796000AA806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C7C45021E5B3796000AA806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CB79C7D1E5C32B60035A765 /* ModalNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalNavigationController.swift; sourceTree = "<group>"; };
+		4CB79C7E1E5C32B60035A765 /* PresentedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				4C7C44F61E5B3796000AA806 /* MasterViewController.swift */,
 				4C7C44F81E5B3796000AA806 /* DetailViewController.swift */,
 				4C7C44FA1E5B3796000AA806 /* Main.storyboard */,
+				4CB79C7D1E5C32B60035A765 /* ModalNavigationController.swift */,
+				4CB79C7E1E5C32B60035A765 /* PresentedViewController.swift */,
 				4C7C44FD1E5B3796000AA806 /* Assets.xcassets */,
 				4C7C44FF1E5B3796000AA806 /* LaunchScreen.storyboard */,
 				4C7C45021E5B3796000AA806 /* Info.plist */,
@@ -143,6 +149,8 @@
 				4C7C44F91E5B3796000AA806 /* DetailViewController.swift in Sources */,
 				4C7C44F71E5B3796000AA806 /* MasterViewController.swift in Sources */,
 				4C7C44F51E5B3796000AA806 /* AppDelegate.swift in Sources */,
+				4CB79C801E5C32B60035A765 /* PresentedViewController.swift in Sources */,
+				4CB79C7F1E5C32B60035A765 /* ModalNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +314,7 @@
 				4C7C45071E5B3796000AA806 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
