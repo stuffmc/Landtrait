@@ -9,10 +9,6 @@
 import UIKit
 
 class ModalNavigationController: UINavigationController {
-    
-    override var prefersStatusBarHidden: Bool { get {
-        return true
-    } }
 
     override var shouldAutorotate: Bool { get {
         return true
